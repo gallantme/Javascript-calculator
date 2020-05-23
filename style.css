@@ -1,0 +1,167 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open-Sans', sans-serif;
+    background-color: white;
+}
+#container {
+    width: 1000px;
+    height: 550px;
+    margin: 20px auto;
+}
+#calculator{
+    width: 320px;
+    height: 520px;
+    background-color: black;
+    margin: 0 auto;
+    top: 20px;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#result {
+    height: 120px;
+}
+#history{
+    text-align: right;
+    height: 60px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: white;
+}
+#output{
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 30px;
+    color: white;
+}
+#keyboard{
+    height: 400px;
+}
+.operator, .number, .empty{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-size: 15px;
+    font-weight: bold;
+}
+.number, .operator{
+    cursor: pointer;
+}
+.number:active {
+    font-size: 12px;
+}
+.operator.active {
+    font-size: 16px;
+}
+.number:focus, .operator:focus{
+    outline: 0;
+}
+button:nth-child(4){
+    font-size: 20px;
+    background-color: orange;
+    color: white;
+}
+button:nth-child(8){
+    font-size: 20px;
+    background-color: orange;
+    color: white;
+}
+button:nth-child(12){
+    font-size: 20px;
+    background-color: orange;
+    color: white;
+}
+button:nth-child(16){
+    font-size: 20px;
+    background-color: orange;
+    color: white;
+}
+button:nth-child(20){
+    font-size: 20px;
+    background-color: orange;
+    color: white;
+}
+button:nth-child(5){
+    background-color: darkgray;
+    color: white;
+}
+button:nth-child(6){
+    background-color: darkgray;
+    color: white;
+}
+button:nth-child(7){
+    background-color: darkgray;
+    color: white;
+}
+button:nth-child(9){
+    background-color: darkgray;
+    color: white;
+}
+button:nth-child(10){
+    background-color: darkgray;
+    color: white;
+}
+button:nth-child(11){
+    background-color: darkgray;
+    color: white;
+}
+button:nth-child(13){
+    background-color: darkgray;
+    color: white;
+}
+button:nth-child(14){
+    background-color: darkgray;
+    color: white;
+}
+button:nth-child(15){
+    background-color: darkgray;
+    color: white;
+}
+button:nth-child(17){
+    background-color: darkgray;
+    color: white;
+}
+button:nth-child(18){
+    background-color: darkgray;
+    color: white;
+}
+button:nth-child(19){
+    background-color: darkgray;
+    font-size: 25px;
+    color: white;
+}
+@media only screen and (max-width: 400px){
+    #container{
+        width: 360px;
+        height: 667px;
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-width: 450px){
+    #container{
+        width: 375px;
+        height: 667px;
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-width: 768px){
+    #container{
+        width: 375px;
+        height: 667px;
+        margin: 0 auto;
+    }
+}
+@media only screen and (min-width: 768px){
+    #container{
+        width: 375px;
+        height: 667px;
+        margin: 0 auto;
+    }
+}
