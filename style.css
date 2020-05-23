@@ -63,6 +63,7 @@ body{
 .number:focus, .operator:focus{
     outline: 0;
 }
+
 button:nth-child(4){
     font-size: 20px;
     background-color: orange;
@@ -88,52 +89,64 @@ button:nth-child(20){
     background-color: orange;
     color: white;
 }
+button:nth-child(1){
+    background-color: #e7e5e5;
+    color: white;
+}
+button:nth-child(2){
+    background-color: #e7e5e5;
+    color: white;
+}
+button:nth-child(3){
+    background-color: #e7e5e5;
+    color: white;
+}
 button:nth-child(5){
-    background-color: darkgray;
+    background-color: gray;
     color: white;
 }
 button:nth-child(6){
-    background-color: darkgray;
+    background-color: gray;
     color: white;
 }
 button:nth-child(7){
-    background-color: darkgray;
+    background-color: gray;
     color: white;
 }
 button:nth-child(9){
-    background-color: darkgray;
+    background-color: gray;
     color: white;
 }
 button:nth-child(10){
-    background-color: darkgray;
+    background-color: gray;
     color: white;
 }
 button:nth-child(11){
-    background-color: darkgray;
+    background-color: gray;
     color: white;
 }
 button:nth-child(13){
-    background-color: darkgray;
+    background-color: gray;
     color: white;
 }
 button:nth-child(14){
-    background-color: darkgray;
+    background-color: gray;
     color: white;
 }
 button:nth-child(15){
-    background-color: darkgray;
+    background-color: gray;
     color: white;
 }
 button:nth-child(17){
-    background-color: darkgray;
+    background-color: gray;
     color: white;
 }
 button:nth-child(18){
-    background-color: darkgray;
+    background-color: gray;
     color: white;
 }
 button:nth-child(19){
-    background-color: darkgray;
+    background-color: gray;
     font-size: 25px;
     color: white;
 }
